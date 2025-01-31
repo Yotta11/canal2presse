@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+header{
+    display:flex;
+    justify-content: space-between;
+    
+    margin:7rem ;
+    
+    }
+    .menu{
+        display:flex;
+        gap:20rem;
+        font-size:2.4rem;
+        
+        font-family:var(--fontpop);
+        font-weight:500;
+    }
+    .lien:hover{
+        transform:translateY(-1.2rem);
+    text-decoration:underline green 0.8rem;
+    /* text-underline-offset: 4rem green; */
+    }
+    a{
+        
+        color:black;
+        text-decoration:none;
+    }
+    
+    button{
+        width:16rem;
+        height: 6.3rem;
+        border-radius:0.1rem;
+        background-color:green;
+        color:var(--colortextb);
+        font-size:2.4rem;
+        font-family:var(--fontpop);
+        font-weight:500;
+        border-radius:2.5rem;
+        color:white;
+        font-weight:500;
+    }
+    button:hover{
+        /* transform:scale(1rem); */
+        transform:translateY(-1rem);
+    }
+    .section1{
+        display: flex;
+        
+        margin: 2.5rem 2rem 2rem 1.7rem;
+        margin-left:8rem;
+        width:92%;
+        gap:10rem;
+    }
+.section1_div1{
+width:90%;
+height:67rem;
+background-image: url(../img/francis.svg);
+background-size:cover;
+background-repeat: no-repeat;
+flex:1.4;
+border-radius:2rem;
+}
+
+.section1_div1_text{
+    height: 7rem;
+    
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-left-color: var(--vert);
+    justify-content: space-around;
+    color: var(--blanc);
+    position: relative;
+    margin-top: 57rem;
+    margin-left: 1.7rem;
+    
+    
+}
+.nganou{
+    font-family: var(--fontIBM);
+    font-size: 2.8rem;
+    width: 90%;
+    font-weight: 700;
+}
+.actu{
+    font-family: var(--fontIBM);
+    font-size: 1.7rem;
+    font-weight: 350;
+}
+
+.sec1Div2{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    
+}
+.a_la_une{
+    height: 3rem;
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    border-left-color: var(--vert);
+    align-items: center;
+}
+.section1_div2{
+    display:flex;
+    margin-top:3rem;
+   
+}
+.section1_div2__petit1{
+    height:18rem;
+    width:30rem;
+    background-image: url(../img/enfants.svg);
+    background-size:cover;
+    color: var(--marron);
+
+    border-radius:1rem;
+}
+.section1_div2__petit2{
+    height:18rem;
+    width:30rem;
+    background-image: url(../img/armee.svg);
+    background-size:cover;
+    color: var(--marron);
+
+    border-radius:1rem;
+}
+
+.section1_div2__petit3{
+    height:18rem;
+    width:30rem;
+    background-image: url(../img/ville.svg);
+    background-size:cover;
+    color: var(--marron);
+
+    border-radius:1rem;
+}
+.texte1{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    font-family: var(--fontIBM);
+    color: var(--marron);
+    font-size:1.6rem;
+    font-weight:500;
+    width:10rem;
+    margin-left:2rem;
+}
+h4{
+    width:37rem;
+    font-size:2.8rem;
+    font-family:var(--fontOpenSans);
+}
+p{
+    width:32rem;
+    font-size:2rem;
+    font-family:var(--fontOpenSans);
+}  
+
+.section2{
+    width:100%;
+    
+    display:flex;
+    gap:2rem;
+    justify-content: space-between;
+    padding-left:9rem;
+    padding-top:3rem;
+    
+}
+.section21{
+    display:flex;
+    flex-direction:column;
+    flex: 1;
+  
+}
+.section2_div1{
+    width:70%;
+    height:32.18rem;
+    border-radius:1rem;
+    
+      background-image:url(../img/unesco.svg); 
+      background-size:cover;
+      background-repeat:no-repeat;
+      margin-top:5rem;
+}
+ .section2_div2{
+    width:70%;
+     height:32.18rem; 
+     
+    border-radius:1rem;
+   
+    background-image:url(../img/politique.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:5rem;
+} 
+.section2_div3{
+    width:70%;
+    height:32.18rem;
+    
+    border-radius:1rem;
+    background-image:url(../img/foot.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:5rem;
+}
+.title{
+    width:48rem;
+    font-size:3rem;
+}
+.sous-titre{
+    font-size:1.6rem;
+    color:var(--vert);
+}
+.suivez{
+    font-size:3rem;
+    padding-top:4rem;
+    text-align:center;
+}
+video{
+    height:78rem;
+    width:90%;
+    object-fit:cover;
+    position:relative;
+    left:8rem;
+    right:2rem;
+    
+    border: 5px solid #333;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius:20px
+    
+    
+} 
+.section41{
+    display:flex;
+    margin:1rem 5rem 2rem 5rem
+}
+.section4_item{
+    justify-content:space-between;
+    padding-top:2rem;
+    align-items:center;
+    margin:1rem 2.7rem;
+    flex:1;
+    
+}
+
+
+.section4_item1{
+    width:90%;
+    height:60rem;
+    background-image: url(../img/matin.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin: 1rem 7rem 1rem 2rem;
+    border-radius:2rem;
+    flex:1;
+}
+.section4_item2{
+    width:50rem;
+    margin: 3rem 7rem 1rem 0rem;
+   color:var(--vert);
+   font-size:5rem;
+   font-weight:500;
+   font-family:var(--fontIBM);
+}
+.section4_item3{
+    font-size:3rem;
+    
+    width:70rem;
+    display:flex;
+    margin-top:3rem;
+    gap:2rem;
+}
+.section5{
+    height:40rem;
+    display: flex;
+    gap:4rem;
+    justify-content: space-between;
+    width: 100%;
+    display:flex;
+   
+    margin: 3rem 0rem 1rem 5.5rem;
+}
+.section5_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex:1;
+} 
+.section5_divc{
+    height: 35rem;
+    width: 75%;
+    border:1px rgb(221, 219, 219) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    
+    
+}
+.section5_div__11{
+    height: 30rem;
+    width: 75%;
+    background-image: url(/assets/img/nous.svg); 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex:1;   
+}
+.section5_div__2{
+    width: 22rem;
+    font-size: 1.4rem;
+    color : var(--vert);
+    font-family: var(--fontinter);
+}
+.section5_div__3{
+    color: var(--noir);
+    width: 35rem;
+    font-family: var(--fontIBM);
+    font-size: 2.2rem;
+}
+.section5_div__12{
+    width:75%;
+    height: 35rem;
+    background-image: url(/assets/img/arene.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex:1;
+}
+
+
+
+.section5_div__13{
+    height:35rem;
+    width:75%;
+    background-image: url(../img/presse.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex:1;
+    
+}
+.section6{
+    height: 55rem;
+    width: 95%;
+    background-image: url(/assets/img/Group\ 46.svg); 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      margin:9rem 0rem 2rem 5rem;
+}
+.section7{
+    height: 55rem;
+    width: 95%;
+    background-image: url(/assets/img/Group\ 43.svg); 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      margin:9rem 0rem 2rem 5rem;
+}
+.section8{
+    display:flex;
+    margin-left:7rem;
+    margin-top:8rem;
+    gap:34rem;
+}
+.section8_div{
+    flex:1;
+}
+.section8_div1{
+    width:34rem;
+    height:35rem;
+    background-image: url(/assets/img/femme.svg); 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.section8_div2__text1{
+    color:#79AC78;
+    font-size:1.2rem;
+    font-family:Inter;
+
+}
+.section8_div2_text2{
+    font-size:2.4rem;
+    font-family:Inter;
+
+}
+.section9{
+    width:100%;
+    height:42.6rem;
+    background-color:#79AC78;
+    display:flex;
+    justify-content: center;
+}
+.section9_div1{
+   
+    width:22rem;
+    height:20rem;
+    background-image: url(/assets/img/canal2.svg); 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:6rem;
+}
+.icons{
+    display:flex;
+    gap:3rem;
+}
+.icon1{
+    width:3rem;
+    height:3rem;
+    background-image: url(/assets/img/insta.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon2{
+    width:3rem;
+    height:3rem;
+    background-image: url(/assets/img/faceb.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon3{
+    width:3.4rem;
+    height:3.4rem;
+    background-image: url(/assets/img/twit.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon4{
+    width:3rem;
+    height:3rem;
+    background-image: url(/assets/img/linkedin.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
